@@ -1,6 +1,6 @@
 package com.kelvin.orgs.model
 
-class Titulo(
+data class Titulo(
     val nomeDoTitulo: String,
     val anoDeLancamento: Int,
     val generoDoFilm: String,

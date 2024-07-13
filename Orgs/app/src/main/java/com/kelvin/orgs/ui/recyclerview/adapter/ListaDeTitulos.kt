@@ -19,7 +19,7 @@ class ListaDeTitulos(
         fun vincula(titulo: Titulo) {
             val nomeDoTitulo = itemView.findViewById<TextView>(R.id.title)
             nomeDoTitulo.text = titulo.nomeDoTitulo
-            val generoDoTitulo = itemView.findViewById<TextView>(R.id.generoDoFilme)
+            val generoDoTitulo = itemView.findViewById<TextView>(R.id.generoDoTitulo)
             generoDoTitulo.text = titulo.generoDoFilm
             val sinopse = itemView.findViewById<TextView>(R.id.sinopse)
             sinopse.text = titulo.sinopse
